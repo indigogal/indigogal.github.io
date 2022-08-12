@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expresión Musical</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-image: url(https://media0.giphy.com/media/gw3RX8HWJygFr5pC/giphy.gif?cid=790b7611015ae485531d761a417c318652450545cb9c938b&rid=giphy.gif&ct=g);
+    }
+    .headbardiv{
+        background-color: black;
+        text-align: left;
+        color: white;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: 30%;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: auto;
+    }
+    .bodystylingdiv{
+        background-color: black;
+        text-align: left;
+        color: lightgray;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: auto;
+        margin-top: 5px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: auto;
+        font-family: 'Source Code Pro', monospace;
+        padding-bottom: 0%;
+    }
+    
+    .spotlightgrid{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 5px;
+        background-color: black;
+        text-align: left;
+        color: lightgray;
+        display: grid;
+    }
+        
+    .imageanddesc{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        display: inherit;
+    }
+
+
+     a {
+         color: lightgray;
+         text-decoration: none;
+    }
+    
+    table {
+        font-family: 'Cutive Mono', monospace;
+    }
+    
+    
+</style>
+<body>
+    <div class="headbardiv">
+        <table style="font-family: 'Cutive Mono', monospace;">
+            <tr>
+                <th style="font-family: 'Source Code Pro', monospace;">Expresión Musical</th>
+                <th> | </th>
+                <th><a href="index.html">Pagina Principal</a></th>
+                <th> | </th>
+                <th><a href="about-us.html">Sobre esta pagina</a></th>
+                <th> | </th>
+                <th><a href="https://youtu.be/XurEEeYgPgc">Info de contacto</a></th>
+            </tr>
+        </table>
+    </div>
+    <div class="bodystylingdiv">
+        <h3 style="text-align:center ; margin-top: 5px; margin-bottom: 0px;">Articulos</h3>
+    </div>
+    <div class="spotlightgrid" >
+        <div style="grid-row-start: 1;grid-row-end: 3; grid-column: 1;" >
+        <h3 style="font-family: 'Source Code Pro', monospace; margin-top: 0px; padding-left: 3%;">Trabajos recientes</h3>
+        </div>
+        <div class="imageanddesc" style="grid-column: 1; grid-row: 2;">
+            <div style="grid-row: 1;">
+            <a href="act1.html"><img height="100px" width="100px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F411628%2Fpexels-photo-411628.jpeg%3Fcs%3Dsrgb%26dl%3Dmusic-dj-beats-411628.jpg%26fm%3Djpg&f=1&nofb=1" alt=""></a>
+            </div>
+            <div style="grid-row: 2; gap: 2%;">
+                <a href="act1.html"><h3>Actividad 1</h3></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
