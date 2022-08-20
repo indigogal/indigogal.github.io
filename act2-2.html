@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expresión Musical</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-image: url(https://media0.giphy.com/media/gw3RX8HWJygFr5pC/giphy.gif?cid=790b7611015ae485531d761a417c318652450545cb9c938b&rid=giphy.gif&ct=g);
+    }
+    .headbardiv{
+        background-color: black;
+        text-align: left;
+        color: white;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: 30%;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: auto;
+    }
+    .bodystylingdiv{
+        background-color: black;
+        text-align: left;
+        color: lightgray;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: auto;
+        margin-top: 5px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: auto;
+        font-family: 'Source Code Pro', monospace;
+        padding-bottom: 0%;
+    }
+
+    .articlegrid {
+        background-color: black;
+        text-align: left;
+        color: lightgray;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: auto;
+        margin-top: 5px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: auto;
+        font-family: 'Source Code Pro', monospace;
+        padding-bottom: 0%;
+        display: grid;
+        grid-template-columns: repeat(1fr, 4);
+        grid-template-rows: repeat(1fr, 4);
+    }
+    
+        
+    .imageanddesc{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        display: inherit;
+    }
+
+
+     a {
+         color: lightgray;
+         text-decoration: none;
+    }
+    
+    table {
+        font-family: 'Cutive Mono', monospace;
+    }
+
+    .specialarticlegrid{
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(1fr, 2);
+    }
+</style>
+<body>
+    <div class="headbardiv">
+        <table style="font-family: 'Cutive Mono', monospace;">
+            <tr>
+                <th style="font-family: 'Source Code Pro', monospace;">Expresión Musical</th>
+                <th> | </th>
+                <th><a href="index.html">Pagina Principal</a></th>
+                <th> | </th>
+                <th><a href="about-us.html">Sobre esta pagina</a></th>
+                <th> | </th>
+                <th><a href="https://youtu.be/XurEEeYgPgc">Info de contacto</a></th>
+            </tr>
+        </table>
+    </div>
+    <div class="articlegrid">
+        <div style="grid-row: 1; grid-column-start: 1; grid-column-end: 4;"> <h2 style="text-align: center;"> Actividad 2 </h2> </div>
+        <div style="grid-row-start: 2; grid-row-end: 3; grid-column-start: 1; grid-column-end: 3; font-family: 'Neucha', cursive;">
+            <p>
+                En esta actividad expondre algunas canciones que me gustan y en que situaciones las escucharia <br>
+                <ul>
+                    <li>En el restaurante - In the shadows of the sun - Es una cancion que me hace feliz</li>
+                    <li>En una fiesta - <a href="https://open.spotify.com/track/1xqklWHD5zfnQMdy0KanDH?si=97f3b1a3b17241c1">B*** get me off - En el tipo de fiestas que me gusta trae buena vibra</a></li>
+                    <li>Con el corazon roto / Super triste - <a href="https://open.spotify.com/track/3f9lNXFSpE93mkVcQmm4x3?si=ebc60529801e4631"> Escape from BABYLON - Es una cancion que creo me haria sentir mejor</a> -</li>
+                    <li>En navidad - <a href="https://www.youtube.com/watch?v=HRUtx8slZoI&list=PLZFBQ14cTpkZxby0-DN1cumkDYUwSJEcR&index=49">Jazz compositions - Es un album con muy buenas vibras para una celebracion amena</a></li>
+                    <li>En el baño - La verdad en el baño escucho lo usual, jazz y trap, no lo trato diferente a otras ocasiones</li>
+                </ul>
+            </p>
+        </div>
+        <div style="grid-row-start: 2; grid-row-end: 3; grid-column: 4;">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4MAsGSovq9iRZzE7ZJWVvX?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+    </div>
+</body>
+</html>
